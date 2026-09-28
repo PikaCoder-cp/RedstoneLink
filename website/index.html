@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>RedstoneLink</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>RedstoneLink</h1>
+
+        <p>
+            Connect your Minecraft world to the web.
+        </p>
+
+
+        <div class="card">
+
+            <h2>Connection</h2>
+
+            <div
+                id="connectionStatus"
+                class="status"
+            >
+                🔴 Connecting...
+            </div>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>Minecraft</h2>
+
+            <p id="minecraftStatus">
+                Searching for Minecraft...
+            </p>
+
+            <div id="minecraftList"></div>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>Controls</h2>
+
+            <button
+                id="activateButton"
+                onclick="activateRedstone()"
+                disabled
+            >
+                ⚡ ACTIVATE REDSTONE
+            </button>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>Log</h2>
+
+            <div id="log"></div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

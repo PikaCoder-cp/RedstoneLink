@@ -1,1 +1,157 @@
+* {
+    box-sizing: border-box;
+}
 
+
+body {
+
+    margin: 0;
+
+    font-family:
+        Arial,
+        sans-serif;
+
+    background: #111;
+
+    color: white;
+}
+
+
+.container {
+
+    width: 90%;
+
+    max-width: 900px;
+
+    margin:
+        40px auto;
+}
+
+
+h1 {
+
+    text-align: center;
+
+    font-size: 48px;
+
+    margin-bottom: 5px;
+}
+
+
+.container > p {
+
+    text-align: center;
+
+    color: #aaa;
+
+    margin-bottom: 35px;
+}
+
+
+.card {
+
+    background: #1c1c1c;
+
+    border: 1px solid #333;
+
+    border-radius: 12px;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+}
+
+
+.status {
+
+    padding: 12px;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+}
+
+
+.connected {
+
+    background: #163d20;
+}
+
+
+.disconnected {
+
+    background: #421818;
+}
+
+
+button {
+
+    border: none;
+
+    border-radius: 8px;
+
+    padding:
+        12px 20px;
+
+    margin: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+
+button:disabled {
+
+    opacity: 0.5;
+
+    cursor: not-allowed;
+}
+
+
+#activateButton {
+
+    width: 100%;
+
+    font-size: 22px;
+
+    font-weight: bold;
+}
+
+
+.minecraftButton {
+
+    background: #333;
+
+    color: white;
+}
+
+
+.minecraftButton:hover {
+
+    background: #444;
+}
+
+
+.minecraftButton.selected {
+
+    outline: 3px solid white;
+}
+
+
+#log {
+
+    background: #090909;
+
+    border-radius: 8px;
+
+    padding: 12px;
+
+    height: 180px;
+
+    overflow-y: auto;
+
+    font-family: monospace;
+
+    font-size: 13px;
+}
